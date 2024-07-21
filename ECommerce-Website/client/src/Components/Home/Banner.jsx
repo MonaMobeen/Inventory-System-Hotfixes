@@ -29,9 +29,9 @@ const Image = styled('img')(({ theme }) => ({
 }));
 
 const Banner = () => {
-    return (
+    return ( 
         <Carousel
-            swipeable={false}
+            swipeable={false} 
             draggable={false}
             responsive={responsive}
             infinite={true}
@@ -43,7 +43,8 @@ const Banner = () => {
             containerClass="carousel-container"
             dotListClass="custom-dot-list-style"
             itemClass="carousel-item-padding-40-px"
-        >
+        > // swipeable: Set to false to disable swiping functionality on the carousel
+      swipeable={false}
             {
                 bannerData.map(image => (
                     <Image src={image.url} alt="banner" id={image.id} />

@@ -30,7 +30,8 @@ const useStyles = makeStyles({
 const DrawerMenu = ({ open, toggleDrawer }) => {
     const classes = useStyles();
     return (
-        <>
+        <> // swipeable: Set to false to disable swiping functionality on the carousel
+      swipeable={false}
             <SwipeableDrawer
               open={open}
               onClose={toggleDrawer}

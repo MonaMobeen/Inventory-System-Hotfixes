@@ -1,5 +1,5 @@
 
-//components
+//component 
 import Product from './Product';
 
 import { products } from '../../constants/products';

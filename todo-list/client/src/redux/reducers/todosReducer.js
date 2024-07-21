@@ -4,6 +4,8 @@ import * as actionTypes from '../actions/type';
 export const todosReducers = (state = [], action) => {
 
     switch (action.type) {
+        // state: Array of todo objects (default: empty array)
+  // action: Object containing type and payload information
         case actionTypes.ADDNEW_TODO:
             return [action.payload, ...state]
         case actionTypes.GETALL_TODO:

@@ -1,5 +1,5 @@
 
-//components
+//component 
 import Header from './Header';
 import Products from './Products';
 
