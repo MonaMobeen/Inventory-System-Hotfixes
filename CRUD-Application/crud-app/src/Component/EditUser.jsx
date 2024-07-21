@@ -26,6 +26,7 @@ const EditUser = () => {
     let navigate = useNavigate();
 
     useEffect(() => {
+        // useEffect hook to load user details on component mount
         loadUserDetails();
     }, []);
 
@@ -40,6 +41,7 @@ const EditUser = () => {
     }
 
     const onValueChange = (e) => {
+        // Function to handle input value changes
         console.log(e.target.value);
         setUser({...user, [e.target.name]: e.target.value})
     }
