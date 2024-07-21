@@ -1,7 +1,9 @@
 
 import { Box, styled, Typography, Link } from '@mui/material';
 import { GitHub, Instagram, Email } from '@mui/icons-material';
-
+// Style Banner component with background image and positioning
+// Style Wrapper component with padding and margin for headings
+// Style Text component with custom color
 const Banner = styled(Box)`
     background-image: url(https://www.wallpapertip.com/wmimgs/23-236943_us-wallpaper-for-website.jpg);
     width: 100%;
