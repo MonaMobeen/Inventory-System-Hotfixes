@@ -27,7 +27,7 @@ const SideBar = ({ toggleDrawer, openDrawer }) => {
                     marginTop: '64px',
                     height: 'calc(100vh - 64px)'
                 },
-            }}
+            }}// variant="persistent": Sets the drawer to be always visible
           >
             <SideBarContent />
         </StyledDrawer>

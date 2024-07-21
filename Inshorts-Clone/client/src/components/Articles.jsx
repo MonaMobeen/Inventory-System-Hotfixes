@@ -3,7 +3,7 @@ import { getNews } from "../service/api";
 
 import InfiniteScroll from 'react-infinite-scroll-component';
 
-//components
+//component 
 import Article from './Article';
 
 const Articles = () => {
